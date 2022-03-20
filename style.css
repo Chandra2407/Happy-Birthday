@@ -147,11 +147,11 @@ button {
     
 }
 .cards div{
-    width: 18rem;
+    width: 15rem;
     height: 20rem;
-    border: 3px solid rgba(161, 248, 0, 0.753);
+    border: 2px solid rgba(161, 248, 0, 0.753);
     border-radius: 1rem;
-    margin: 1rem 0.5rem;
+    margin: 1rem 0.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,7 +223,7 @@ footer {
         padding: 2rem;
     }
     .cards div{
-        width: 25rem;
+        width: 40rem;
         height: 20rem;
         border: 1px solid black;
         margin: 2rem;
