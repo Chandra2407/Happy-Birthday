@@ -104,26 +104,25 @@ const HomeScreen = {
             </div>
         </div>
     </div>
-    
+    <div class="cards">
+        <div class="arts" data-bs-toggle="modal" data-bs-target="#modal">
+            <h4>Your Arts</h4>
+        </div>
+        <div class="babies" data-bs-toggle="modal" data-bs-target="#modal">
+            <h4>Your Babies</h4>
+        </div>
+        <div class="artists" data-bs-toggle="modal" data-bs-target="#modal">
+            <h4>Your Fav Artists</h4>
+        </div>
+        <div class="songs" data-bs-toggle="modal" data-bs-target="#modal">
+            <h4>Your Fav Songs</h4>
+        </div>
+        <div class="memories" data-bs-toggle="modal" data-bs-target="#modal">
+            <h4>Special Memories</h4>
+        </div>
+    </div>
     `
     }
 }
 export default HomeScreen;
 
-// <div class="cards">
-//         <div class="arts" data-bs-toggle="modal" data-bs-target="#modal">
-//             <h4>Your Arts</h4>
-//         </div>
-//         <div class="babies" data-bs-toggle="modal" data-bs-target="#modal">
-//             <h4>Your Babies</h4>
-//         </div>
-//         <div class="artists" data-bs-toggle="modal" data-bs-target="#modal">
-//             <h4>Your Fav Artists</h4>
-//         </div>
-//         <div class="songs" data-bs-toggle="modal" data-bs-target="#modal">
-//             <h4>Your Fav Songs</h4>
-//         </div>
-//         <div class="memories" data-bs-toggle="modal" data-bs-target="#modal">
-//             <h4>Special Memories</h4>
-//         </div>
-//     </div>

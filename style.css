@@ -99,17 +99,18 @@ button {
 
 .birthday-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .birthday-contents {
     display: flex;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     padding: 2rem 0;
     /* border: 1px solid black; */
-    margin: 2rem 0;
     font-family: 'Red Hat Mono', monospace;
 }
 .birthday-contents h1{
