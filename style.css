@@ -175,7 +175,7 @@ button {
 }
 .modal-body{
     margin: 0;
-    padding: 0;
+    padding-right: 2.5rem;
 }
 .art-images{
     display: flex;
