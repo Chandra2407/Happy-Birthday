@@ -27,19 +27,19 @@ const MusicPlayer = {
     
         <div class="buttons">
             <div class="shuffle">
-                <i class="fas fa-random fa-2x" title="shuffle"></i>
+                <i class="fas fa-random fa" title="shuffle"></i>
             </div>
             <div class="prev-track">
-                <i class="fa-solid fa-backward-step fa-2x" title="previous"></i>
+                <i class="fa-solid fa-backward-step fa" title="previous"></i>
             </div>
             <div class="play-pause">
-                <i class="fa-solid fa-circle-play fa-3x" title="play"></i>
+                <i class="fa-solid fa-circle-play fa" title="play"></i>
             </div>
             <div class="next-track">
-                <i class="fa-solid fa-forward-step fa-2x" title="next"></i>
+                <i class="fa-solid fa-forward-step fa" title="next"></i>
             </div>
             <div class="repeat">
-                <i class="fa fa-repeat fa-2x" title="repeat"></i>
+                <i class="fa fa-repeat fa" title="repeat"></i>
             </div>
         </div>
     </div>
