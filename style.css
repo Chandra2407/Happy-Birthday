@@ -251,20 +251,22 @@ button {
     margin:1rem 0;
 }
 .buttons div{
-    margin: 2rem;
+    margin: 1rem;
     cursor: pointer;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 .slider-container {
     display: flex;
     align-items: center;
+    width: 90%;
+    margin: 1rem;
 }
 .slider{
     -webkit-appearance: none;
     -moz-appearance: none;
     height: 5px;
     background-color: rgb(253, 143, 143);
-    width: 20rem;
+    width: 100%;
     border-radius: 2rem;
     margin: 1rem;
 }
