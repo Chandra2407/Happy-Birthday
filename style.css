@@ -255,6 +255,9 @@ button {
     cursor: pointer;
     font-size: 2.3rem;
 }
+.play-pause i{
+    font-size: 3rem;
+}
 .slider-container {
     display: flex;
     align-items: center;
