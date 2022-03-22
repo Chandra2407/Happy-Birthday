@@ -1,3 +1,5 @@
+import MusicPlayer from "../components/musicplayer.js";
+
 const HomeScreen = {
     after_render: () => {
       const arts = document.querySelector(".arts");
@@ -73,13 +75,13 @@ const HomeScreen = {
       const songs = document.querySelector(".songs");
       songs.addEventListener("click",(e)=>{
           modalTitle.innerHTML = "Your Fav Songs";
-          modalBody.innerHTML = "I love your Songs"
+          modalBody.innerHTML =`${MusicPlayer.render()}`
       })
 
       const memories = document.querySelector(".memories");
       memories.addEventListener("click",(e)=>{
           modalTitle.innerHTML = "Special Memories";
-          modalBody.innerHTML = "I love our Memories"
+          modalBody.innerHTML ="memories"
       })
     
     },
@@ -106,19 +108,19 @@ const HomeScreen = {
     </div>
     <div class="cards">
         <div class="arts" data-bs-toggle="modal" data-bs-target="#modal">
-            <h4>Your Arts</h4>
+            <h4>???</h4>
         </div>
         <div class="babies" data-bs-toggle="modal" data-bs-target="#modal">
-            <h4>Your Babies</h4>
+            <h4>???</h4>
         </div>
         <div class="artists" data-bs-toggle="modal" data-bs-target="#modal">
-            <h4>Your Fav Artists</h4>
+            <h4>???</h4>
         </div>
         <div class="songs" data-bs-toggle="modal" data-bs-target="#modal">
-            <h4>Your Fav Songs</h4>
+            <h4>???</h4>
         </div>
         <div class="memories" data-bs-toggle="modal" data-bs-target="#modal">
-            <h4>Special Memories</h4>
+            <h4>???</h4>
         </div>
     </div>
     `

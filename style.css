@@ -207,7 +207,67 @@ button {
     height: 100%;
     object-fit: contain;
 }
-
+.music-player{
+    margin: 1rem;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+}
+.track-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.track-cover{
+    margin: 1rem;
+    height: 20rem;
+    width: 20rem;
+    /* border: 0.1rem solid black; */
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.track-cover img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.track-name{
+    font-size: 2rem;
+}
+.track-artist{
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    margin:1rem 0;
+}
+.buttons div{
+    padding: 2rem;
+    cursor: pointer;
+    
+}
+.slider-container {
+    display: flex;
+    align-items: center;
+}
+.slider{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 5px;
+    background-color: rgb(253, 143, 143);
+    width: 20rem;
+    border-radius: 2rem;
+    margin: 1rem;
+}
 footer {
     grid-area: footer;
     background-color: black;
@@ -216,6 +276,22 @@ footer {
     justify-content: center;
     font-size: 3rem;
     color: white;
+}
+
+.rotate-anim {
+        
+    /* Here we declare our inline animation */
+    animation: rotate 10s linear infinite;
+}
+/* Here we define our animation with the name "rotate" */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
 }
 
 .loading1 {
@@ -263,7 +339,7 @@ footer {
         margin: 2rem;
     }
     .modal{
-        transform: scaleX(1.5);
+        transform: scaleX(1.3);
     }
     .loading1 {
         
@@ -276,7 +352,7 @@ footer {
         }
     
         to {
-            transform: scaleX(1.5);
+            transform: scaleX(1.3);
         }
     }
   }
