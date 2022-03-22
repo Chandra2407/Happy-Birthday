@@ -75,7 +75,8 @@ const HomeScreen = {
       const songs = document.querySelector(".songs");
       songs.addEventListener("click",(e)=>{
           modalTitle.innerHTML = "Your Fav Songs";
-          modalBody.innerHTML =`${MusicPlayer.render()}`
+          modalBody.innerHTML =`${MusicPlayer.render()}`;
+          MusicPlayer.after_render();
       })
 
       const memories = document.querySelector(".memories");

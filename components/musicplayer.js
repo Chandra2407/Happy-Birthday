@@ -1,5 +1,13 @@
 const MusicPlayer = {
+    after_render:()=>{
+        const playButton = document.querySelector(".play-pause");
+        playButton.addEventListener("click",(e)=>{
+            document.querySelector(".track-cover").classList.toggle("rotate-anim");
+            document.querySelector(".pp").classList.toggle("fa-circle-play");
+            document.querySelector(".pp").classList.toggle("fa-circle-pause");
 
+        })
+    },
     render:()=>{
         return `
         <div class="music-player">
@@ -33,7 +41,7 @@ const MusicPlayer = {
                 <i class="fa-solid fa-backward-step fa-1.5x" title="previous"></i>
             </div>
             <div class="play-pause">
-                <i class="fa-solid fa-circle-play fa" title="play"></i>
+                <i class="fa-solid fa-circle-play fa-1.5x pp" title="play"></i>
             </div>
             <div class="next-track">
                 <i class="fa-solid fa-forward-step fa-1.5x" title="next"></i>
