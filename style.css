@@ -217,6 +217,9 @@ button {
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
     width: 100%;
+    /* background-color: #85FFBD;
+    background-image:linear-gradient(45deg,#85FFBD 0%,#9c9a4a 100%); */
+    color: rgb(255, 255, 255);
 }
 .track-details{
     display: flex;
@@ -232,12 +235,13 @@ button {
     border-radius: 50%;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    animation: rotate 10s linear infinite;
+    animation-fill-mode: forwards;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.track-cover img{
-    height: 100%;
-    width: 100%;
-    object-fit:cover;
-}
+
 .track-name{
     font-size: 2rem;
 }
@@ -286,11 +290,12 @@ footer {
     font-size: 3rem;
     color: white;
 }
-
-.rotate-anim {
-        
-    /* Here we declare our inline animation */
-    animation: rotate 10s linear infinite;
+.rotate-anim{
+    animation-play-state: running;
+}
+.pause-anim{
+    
+    animation-play-state: paused;
 }
 /* Here we define our animation with the name "rotate" */
 @keyframes rotate {
