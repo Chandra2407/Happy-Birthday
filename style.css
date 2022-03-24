@@ -115,9 +115,27 @@ button {
 }
 .birthday-contents h1{
     font-size: 3.5rem;
+    animation: word_anim 5s infinite;
+    /* animation-fill-mode: forwards; */
 }
 .birthday-contents h2{
     font-size: 2.5rem;
+    animation: word_anim 4.5s infinite;
+
+}
+@keyframes word_anim {
+    0%{
+        transform: translate(0%);
+    }
+   
+    50%{
+        transform: translateY(-50%);
+    }
+  
+    100%{
+        transform: translateY(0%);
+    }
+
 }
 .contents-list {
     list-style: none;
@@ -236,7 +254,7 @@ button {
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     animation: rotate 10s linear infinite;
-    animation-fill-mode: forwards;
+    /* animation-fill-mode: forwards; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

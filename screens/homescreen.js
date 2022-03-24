@@ -6,7 +6,7 @@ const HomeScreen = {
       const modalTitle = document.getElementById("modalTitle");
       const modalBody = document.getElementById("modalBody");
       arts.addEventListener("click",(e)=>{
-          modalTitle.innerHTML = "Your Arts";
+          modalTitle.innerHTML = "My Arts";
           modalBody.innerHTML = `
           <div class="art-images">
            <ul class="art-list">
@@ -37,7 +37,7 @@ const HomeScreen = {
 
       const babies = document.querySelector(".babies");
       babies.addEventListener("click",(e)=>{
-          modalTitle.innerHTML = "Your Babies";
+          modalTitle.innerHTML = "My Babies";
           modalBody.innerHTML = `
           <div class="art-images">
            <ul class="art-list">
@@ -68,21 +68,46 @@ const HomeScreen = {
 
       const artists = document.querySelector(".artists");
       artists.addEventListener("click",(e)=>{
-          modalTitle.innerHTML = "Your Fav Artists";
-          modalBody.innerHTML = "I love your Artists"
+          modalTitle.innerHTML = "My Fav People";
+          modalBody.innerHTML = `
+          <div class="art-images">
+           <ul class="art-list">
+               <li>
+                   <div class="art-container">
+                       <img src="./img/bts.png" alt="sheba">
+                   </div>
+               </li>
+               <li>
+                <div class="art-container">
+                    <img src="./img/levi.jpeg" alt="tom">
+                </div>
+            </li>
+            <li>
+                <div class="art-container">
+                    <img src="./img/eren-levi.jpeg" alt="whitecat">
+                </div>
+            </li>
+            <li>
+                <div class="art-container">
+                    <img src="./img/Light-L.png" alt="3babies">
+                </div>
+            </li>
+           </ul> 
+    </div>
+          `;
       })
 
       const songs = document.querySelector(".songs");
       songs.addEventListener("click",(e)=>{
-          modalTitle.innerHTML = "Your Fav Songs";
+          modalTitle.innerHTML = "My Fav Songs";
           modalBody.innerHTML =`${MusicPlayer.render()}`;
           MusicPlayer.after_render();
       })
 
-      const memories = document.querySelector(".memories");
+      const memories = document.querySelector(".notes");
       memories.addEventListener("click",(e)=>{
-          modalTitle.innerHTML = "Special Memories";
-          modalBody.innerHTML ="memories"
+        //   document.location.href = "https://yournotes-app.netlify.app/";
+         window.open("https://yournotes-app.netlify.app/","_blank");
       })
     
     },
@@ -120,7 +145,7 @@ const HomeScreen = {
         <div class="songs" data-bs-toggle="modal" data-bs-target="#modal">
             <h4>???</h4>
         </div>
-        <div class="memories" data-bs-toggle="modal" data-bs-target="#modal">
+        <div class="notes">
             <h4>???</h4>
         </div>
     </div>
