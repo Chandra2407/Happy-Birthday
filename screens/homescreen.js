@@ -74,23 +74,33 @@ const HomeScreen = {
            <ul class="art-list">
                <li>
                    <div class="art-container">
-                       <img src="./img/bts.png" alt="sheba">
+                       <img src="./img/bts.png" alt="bts">
                    </div>
                </li>
                <li>
                 <div class="art-container">
-                    <img src="./img/levi.jpeg" alt="tom">
+                    <img src="./img/levi.png" alt="levu">
                 </div>
             </li>
             <li>
                 <div class="art-container">
-                    <img src="./img/eren-levi.jpeg" alt="whitecat">
+                    <img src="./img/eren.png" alt="eren">
                 </div>
             </li>
             <li>
                 <div class="art-container">
-                    <img src="./img/Light-L.png" alt="3babies">
+                    <img src="./img/eren-levi.png" alt="eren-levi">
                 </div>
+            </li>
+            <li>
+            <div class="art-container">
+                <img src="./img/light-l1.png" alt="light-l">
+            </div>
+            </li>
+            <li>
+            <div class="art-container">
+                <img src="./img/oned.png" alt="oned">
+            </div>
             </li>
            </ul> 
     </div>
