@@ -22,16 +22,10 @@ const MusicList = [
         music:"music/FAKELOVE.mp3",
     },
     {
-        img:"img/starboyxinsane.jpeg",
-        name:"Starboy X Insane",
-        artist:"The Weekend - AP Dhillon",
-        music:"music/StarboyXInsane.mp3",
-    },
-    {
-        img:"img/starboyxinsane.jpeg",
-        name:"Starboy Mashup",
-        artist:"The Weekend - AP Dhillon",
-        music:"music/StarboyMashup.mp3",
+        img:"img/aot.jpeg",
+        name:"The Reluctant Heroes",
+        artist:"AOT",
+        music:"music/TheReluctantHeroes.mp3",
     },
     {
         img:"img/TokyoGhoul.jpg",
@@ -56,6 +50,18 @@ const MusicList = [
         name:"Zara Zara",
         artist:"JalRaj",
         music:"music/ZaraZara.mp3",
+    },
+    {
+        img:"img/starboyxinsane.jpeg",
+        name:"Starboy X Insane",
+        artist:"The Weekend - AP Dhillon",
+        music:"music/StarboyXInsane.mp3",
+    },
+    {
+        img:"img/starboyxinsane.jpeg",
+        name:"Starboy Mashup",
+        artist:"The Weekend - AP Dhillon",
+        music:"music/StarboyMashup.mp3",
     },
 ]
 export {
