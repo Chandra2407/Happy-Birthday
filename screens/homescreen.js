@@ -128,7 +128,7 @@ const HomeScreen = {
             <ul class="contents-list">
                 <li>
                     <h1>Happy Birthday</h1>
-                    <h2>Ankita 😄</h2>
+                    <h2>Ankita </h2>
                 </li>
                 <li>
                     <h4>Have a great birthday</h4>
